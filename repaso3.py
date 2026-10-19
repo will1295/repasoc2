@@ -8,7 +8,7 @@ from matplotlib.figure import Figure
 class Ventana(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Grafico con matplotlib")
+        self.setWindowTitle("Grafico de barras para las sucursales")
         self.resize(600,400)
 
         df = pd.read_csv('inventario.csv')
